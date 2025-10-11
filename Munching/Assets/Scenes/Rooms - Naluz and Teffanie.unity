@@ -352,7 +352,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 50, y: 1, z: 100}
+  m_LocalScale: {x: 250, y: 1, z: 350}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -443,13 +443,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1036981402}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.27059805, y: -0.6532815, z: 0.27059805, w: 0.6532815}
+  m_LocalPosition: {x: 43.8, y: 61.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 45, y: -90, z: 0}
 --- !u!114 &1036981406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -507,7 +507,7 @@ GameObject:
   - component: {fileID: 1385024237}
   - component: {fileID: 1385024236}
   m_Layer: 0
-  m_Name: Floor (3)
+  m_Name: Left Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -599,8 +599,8 @@ Transform:
   m_GameObject: {fileID: 1385024235}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 0, y: 15, z: -50}
-  m_LocalScale: {x: 30, y: 1, z: 50}
+  m_LocalPosition: {x: 0, y: 40, z: -175}
+  m_LocalScale: {x: 80, y: 1, z: 250}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -618,7 +618,7 @@ GameObject:
   - component: {fileID: 1571583702}
   - component: {fileID: 1571583701}
   m_Layer: 0
-  m_Name: Floor (1)
+  m_Name: Long Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -710,8 +710,8 @@ Transform:
   m_GameObject: {fileID: 1571583700}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -25, y: 15, z: 0}
-  m_LocalScale: {x: 30, y: 1, z: 100}
+  m_LocalPosition: {x: -125, y: 40, z: 0}
+  m_LocalScale: {x: 80, y: 1, z: 350}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -729,7 +729,7 @@ GameObject:
   - component: {fileID: 1904685938}
   - component: {fileID: 1904685937}
   m_Layer: 0
-  m_Name: Floor (2)
+  m_Name: Right Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -821,8 +821,8 @@ Transform:
   m_GameObject: {fileID: 1904685936}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 0, y: 15, z: 50}
-  m_LocalScale: {x: 30, y: 1, z: 50}
+  m_LocalPosition: {x: 0, y: 40, z: 175}
+  m_LocalScale: {x: 80, y: 1, z: 250}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
