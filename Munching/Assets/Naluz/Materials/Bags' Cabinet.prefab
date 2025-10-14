@@ -1,0 +1,1034 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &381070050869351655
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7958820967091605647}
+  m_Layer: 0
+  m_Name: Bags' Cabinet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7958820967091605647
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381070050869351655}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: -170, y: 48.4, z: 201.2}
+  m_LocalScale: {x: 3, y: 1.7094507, z: 1.6901119}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7521431351641663490}
+  - {fileID: 4434960616920782043}
+  - {fileID: 5375244429652270241}
+  - {fileID: 3150000345868305693}
+  - {fileID: 3134304534015275096}
+  - {fileID: 3584104653439911594}
+  - {fileID: 2189916239057943503}
+  - {fileID: 753103475297500848}
+  - {fileID: 8527022343359149438}
+  - {fileID: 2033430556694465796}
+  - {fileID: 4374066497913165119}
+  - {fileID: 7522953030537298133}
+  - {fileID: 5215261826284424189}
+  - {fileID: 2656207233919894685}
+  - {fileID: 1481634267208758615}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!1001 &2086971166588997967
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7958820967091605647}
+    m_Modifications:
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -47.238556
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6761680642932202745, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_Name
+      value: Bag Cabinet Wood Plank (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+--- !u!4 &5375244429652270241 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+  m_PrefabInstance: {fileID: 2086971166588997967}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2165819737630672403
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7958820967091605647}
+    m_Modifications:
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -15.64246
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -77.238556
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6761680642932202745, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_Name
+      value: Bag Cabinet Wood Plank (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+--- !u!4 &5215261826284424189 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+  m_PrefabInstance: {fileID: 2165819737630672403}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2321830771518257296
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7958820967091605647}
+    m_Modifications:
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -15.64246
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -37.238556
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6761680642932202745, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_Name
+      value: Bag Cabinet Wood Plank (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+--- !u!4 &8527022343359149438 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+  m_PrefabInstance: {fileID: 2321830771518257296}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4469884753046719803
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7958820967091605647}
+    m_Modifications:
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -15.64246
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -67.238556
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6761680642932202745, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_Name
+      value: Bag Cabinet Wood Plank (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+--- !u!4 &7522953030537298133 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+  m_PrefabInstance: {fileID: 4469884753046719803}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4471969540808467948
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7958820967091605647}
+    m_Modifications:
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -15.64246
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -47.238556
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6761680642932202745, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_Name
+      value: Bag Cabinet Wood Plank
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+--- !u!4 &7521431351641663490 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+  m_PrefabInstance: {fileID: 4471969540808467948}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4819150566499367097
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7958820967091605647}
+    m_Modifications:
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -15.64246
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -96.238556
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6761680642932202745, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_Name
+      value: Bag Cabinet Wood Plank (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+--- !u!4 &1481634267208758615 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+  m_PrefabInstance: {fileID: 4819150566499367097}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5191234590890489377
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7958820967091605647}
+    m_Modifications:
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -15.64246
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -17.238556
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6761680642932202745, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_Name
+      value: Bag Cabinet Wood Plank (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+--- !u!4 &2189916239057943503 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+  m_PrefabInstance: {fileID: 5191234590890489377}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5356731852283822314
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7958820967091605647}
+    m_Modifications:
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -15.64246
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -47.238556
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6761680642932202745, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_Name
+      value: Bag Cabinet Wood Plank (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+--- !u!4 &2033430556694465796 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+  m_PrefabInstance: {fileID: 5356731852283822314}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6637552628361278302
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7958820967091605647}
+    m_Modifications:
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -15.64246
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -27.238556
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6761680642932202745, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_Name
+      value: Bag Cabinet Wood Plank (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+--- !u!4 &753103475297500848 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+  m_PrefabInstance: {fileID: 6637552628361278302}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7481483235571747652
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7958820967091605647}
+    m_Modifications:
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -15.64246
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.238556
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6761680642932202745, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_Name
+      value: Bag Cabinet Wood Plank (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+--- !u!4 &3584104653439911594 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+  m_PrefabInstance: {fileID: 7481483235571747652}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7700331975753210065
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7958820967091605647}
+    m_Modifications:
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -15.64246
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -57.238556
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6761680642932202745, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_Name
+      value: Bag Cabinet Wood Plank (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+--- !u!4 &4374066497913165119 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+  m_PrefabInstance: {fileID: 7700331975753210065}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7774048875039299893
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7958820967091605647}
+    m_Modifications:
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.14246
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -47.238556
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6761680642932202745, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_Name
+      value: Bag Cabinet Wood Plank (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+--- !u!4 &4434960616920782043 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+  m_PrefabInstance: {fileID: 7774048875039299893}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8264777167905835379
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7958820967091605647}
+    m_Modifications:
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -15.64246
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -87.238556
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6761680642932202745, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_Name
+      value: Bag Cabinet Wood Plank (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+--- !u!4 &2656207233919894685 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+  m_PrefabInstance: {fileID: 8264777167905835379}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9012147273235660214
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7958820967091605647}
+    m_Modifications:
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -15.64246
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.561432
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6761680642932202745, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_Name
+      value: Bag Cabinet Wood Plank (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+--- !u!4 &3134304534015275096 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+  m_PrefabInstance: {fileID: 9012147273235660214}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9068510000174958835
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7958820967091605647}
+    m_Modifications:
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -25.64246
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -47.238556
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6761680642932202745, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+      propertyPath: m_Name
+      value: Bag Cabinet Wood Plank (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+--- !u!4 &3150000345868305693 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6228158792158612974, guid: 437ca688f0d3b9e41bd6cdaa6e73c116, type: 3}
+  m_PrefabInstance: {fileID: 9068510000174958835}
+  m_PrefabAsset: {fileID: 0}
