@@ -4,10 +4,11 @@ using TMPro;
 public class FoodPickup : MonoBehaviour
 {
     [Header("UI Prompt")]
-    public TextMeshProUGUI interactionText;  // Drag your TMP text here
+    public TextMeshProUGUI interactionText;
     public string promptMessage = "Press F to grab food";
 
-    private bool isPlayerNearby = false;
+    private bool playerNearby = false;
+    private StudentController nearbyStudent;
 
     void Start()
     {
@@ -17,32 +18,30 @@ public class FoodPickup : MonoBehaviour
 
     void Update()
     {
-        if (isPlayerNearby && Input.GetKeyDown(KeyCode.F))
+        if (playerNearby && Input.GetKeyDown(KeyCode.F) && nearbyStudent != null)
         {
-            GrabFood();
+            GrabFood(nearbyStudent);
         }
     }
 
-    void GrabFood()
+    void GrabFood(StudentController student)
     {
-        if (interactionText)
-            interactionText.text = "";
-
-        // You can change this depending on what should happen when food is grabbed:
-        // - Play animation
-        // - Add score
-        // - Hide or destroy the food
-        Debug.Log("Food grabbed!");
-        Destroy(gameObject); // remove the food
+        if (interactionText) interactionText.text = "";
+        student.PickUpFood();
+        Debug.Log("Food grabbed by player");
+        Destroy(gameObject);
     }
 
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            isPlayerNearby = true;
-            if (interactionText)
-                interactionText.text = promptMessage;
+            nearbyStudent = other.GetComponent<StudentController>();
+            if (nearbyStudent != null)
+            {
+                playerNearby = true;
+                if (interactionText) interactionText.text = promptMessage;
+            }
         }
     }
 
@@ -50,9 +49,9 @@ public class FoodPickup : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            isPlayerNearby = false;
-            if (interactionText)
-                interactionText.text = "";
+            playerNearby = false;
+            nearbyStudent = null;
+            if (interactionText) interactionText.text = "";
         }
     }
 }
