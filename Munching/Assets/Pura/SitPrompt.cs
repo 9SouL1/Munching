@@ -1,110 +1,85 @@
 using UnityEngine;
 using TMPro;
 
+[RequireComponent(typeof(Collider))]
 public class SitPrompt : MonoBehaviour
 {
-    [Header("UI")]
     public TextMeshProUGUI interactText;
-    public string promptMessage = "Press C to sit";
+    public Transform seatPoint; // can be auto-generated
+    private bool isPlayerNear = false;
+    private Transform player;
+    private bool isSitting = false;
 
-    [Header("Seat Settings")]
-    public Transform seatPoint; // assign a child transform on the chair where the player should sit
-
-    private bool playerNearby = false;
-    private Transform playerRoot;
-    private Rigidbody playerRb;
-    private PlayerMovement playerMovement;
-    private StudentController studentController;
-
-    void Start()
+    private void Start()
     {
-        if (interactText != null)
-            interactText.text = "";
-    }
-
-    void Update()
-    {
-        if (playerNearby && Input.GetKeyDown(KeyCode.C))
+        // Auto-create a SeatPoint if missing
+        if (seatPoint == null)
         {
-            if (studentController != null && playerRoot != null && seatPoint != null)
-            {
-                SitPlayer();
-            }
+            GameObject sp = new GameObject("SeatPoint");
+            sp.transform.SetParent(transform);
+            sp.transform.localPosition = new Vector3(0, 0.6f, 0); // height above chair seat
+            seatPoint = sp.transform;
         }
+
+        // Hide text initially
+        if (interactText != null)
+            interactText.gameObject.SetActive(false);
     }
 
-    void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            playerNearby = true;
-            playerRoot = other.transform;
-            playerRb = other.GetComponent<Rigidbody>();
-            playerMovement = other.GetComponent<PlayerMovement>();
-            studentController = other.GetComponent<StudentController>();
-
+            isPlayerNear = true;
+            player = other.transform;
             if (interactText != null)
-                interactText.text = promptMessage;
+                interactText.gameObject.SetActive(true);
         }
     }
 
-    void OnTriggerExit(Collider other)
+    private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            playerNearby = false;
-            playerRoot = null;
-            playerRb = null;
-            playerMovement = null;
-            studentController = null;
-
+            isPlayerNear = false;
             if (interactText != null)
-                interactText.text = "";
+                interactText.gameObject.SetActive(false);
         }
     }
 
-    void SitPlayer()
+    private void Update()
     {
-        // change player state
-        studentController.SitDown();
-        studentController.ignoreNextInput = true; // prevents immediate toggle back
-
-        // move player to seat position & rotation
-        playerRoot.position = seatPoint.position;
-        playerRoot.rotation = seatPoint.rotation;
-
-        // stop physics movement
-        if (playerRb != null)
+        if (isPlayerNear && Input.GetKeyDown(KeyCode.C))
         {
-            playerRb.linearVelocity = Vector3.zero;
-            playerRb.isKinematic = true;
+            if (!isSitting)
+                Sit();
+            else
+                Stand();
         }
-
-        // disable player movement temporarily
-        if (playerMovement != null)
-            playerMovement.enabled = false;
-
-        // parent player to chair
-        playerRoot.SetParent(seatPoint);
-
-        // clear prompt text
-        if (interactText != null)
-            interactText.text = "";
     }
 
-    // optional if you want to stand them up externally
-    public void ForceStandPlayer()
+    void Sit()
     {
-        if (playerRoot == null || studentController == null) return;
+        isSitting = true;
+        if (interactText != null)
+            interactText.text = "Press C to stand";
 
-        studentController.StandUp();
+        player.position = seatPoint.position;
+        player.rotation = seatPoint.rotation;
 
-        if (playerRb != null)
-            playerRb.isKinematic = false;
+        var controller = player.GetComponent<StudentController>();
+        if (controller != null) controller.enabled = false;
+    }
 
-        if (playerMovement != null)
-            playerMovement.enabled = true;
+    void Stand()
+    {
+        isSitting = false;
+        if (interactText != null)
+            interactText.text = "Press C to sit";
 
-        playerRoot.SetParent(null);
+        var controller = player.GetComponent<StudentController>();
+        if (controller != null) controller.enabled = true;
+
+        player.position += player.forward * 0.5f; // step forward
     }
 }
