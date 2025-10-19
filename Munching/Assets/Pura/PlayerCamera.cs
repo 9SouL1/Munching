@@ -21,6 +21,7 @@ public class PlayerCamera : MonoBehaviour
     private Vector3 velocity;
 
     private bool isThirdPerson = true;
+    private bool wasSeated = false; // track previous state to detect changes
 
     void Start()
     {
@@ -54,6 +55,17 @@ public class PlayerCamera : MonoBehaviour
         {
             isSeated = studentController.state == StudentState.Seated ||
                        studentController.state == StudentState.SeatedAndEating;
+        }
+
+        // ?? Detect change (Standing <-> Sitting)
+        if (isSeated != wasSeated)
+        {
+            if (isSeated)
+                Debug.Log("?? Player is now SEATED.");
+            else
+                Debug.Log("?? Player is now STANDING.");
+
+            wasSeated = isSeated;
         }
 
         float currentHeight = isSeated ? seatedHeight : standingHeight;
