@@ -2683,11 +2683,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCamera
   target: {fileID: 1576921911}
-  distance: 3.5
-  height: 1.6
   sensitivity: 2
   smoothTime: 0.08
-  firstPerson: 0
+  thirdPersonDistance: 50
+  firstPersonDistance: 0
+  standingHeight: 20
+  seatedHeight: 1
 --- !u!114 &277445202
 MonoBehaviour:
   m_ObjectHideFlags: 0
