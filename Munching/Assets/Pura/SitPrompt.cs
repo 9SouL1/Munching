@@ -1,29 +1,23 @@
 using UnityEngine;
-using TMPro;
 
 [RequireComponent(typeof(Collider))]
 public class SitPrompt : MonoBehaviour
 {
-    public TextMeshProUGUI interactText;
-    public Transform seatPoint; // can be auto-generated
+    public Transform seatPoint;
     private bool isPlayerNear = false;
     private Transform player;
     private bool isSitting = false;
 
     private void Start()
     {
-        // Auto-create a SeatPoint if missing
+        // Auto-create SeatPoint if missing
         if (seatPoint == null)
         {
             GameObject sp = new GameObject("SeatPoint");
             sp.transform.SetParent(transform);
-            sp.transform.localPosition = new Vector3(0, 0.6f, 0); // height above chair seat
+            sp.transform.localPosition = new Vector3(0, 0.6f, 0);
             seatPoint = sp.transform;
         }
-
-        // Hide text initially
-        if (interactText != null)
-            interactText.gameObject.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -32,8 +26,7 @@ public class SitPrompt : MonoBehaviour
         {
             isPlayerNear = true;
             player = other.transform;
-            if (interactText != null)
-                interactText.gameObject.SetActive(true);
+            SitPromptManager.Instance?.ShowPrompt("Press C to Sit");
         }
     }
 
@@ -42,8 +35,7 @@ public class SitPrompt : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             isPlayerNear = false;
-            if (interactText != null)
-                interactText.gameObject.SetActive(false);
+            SitPromptManager.Instance?.HidePrompt();
         }
     }
 
@@ -61,8 +53,7 @@ public class SitPrompt : MonoBehaviour
     void Sit()
     {
         isSitting = true;
-        if (interactText != null)
-            interactText.text = "Press C to stand";
+        SitPromptManager.Instance?.ShowPrompt("Press C to Stand");
 
         player.position = seatPoint.position;
         player.rotation = seatPoint.rotation;
@@ -74,12 +65,11 @@ public class SitPrompt : MonoBehaviour
     void Stand()
     {
         isSitting = false;
-        if (interactText != null)
-            interactText.text = "Press C to sit";
+        SitPromptManager.Instance?.ShowPrompt("Press C to Sit");
 
         var controller = player.GetComponent<StudentController>();
         if (controller != null) controller.enabled = true;
 
-        player.position += player.forward * 0.5f; // step forward
+        player.position += player.forward * 0.5f;
     }
 }
